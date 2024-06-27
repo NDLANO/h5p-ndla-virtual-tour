@@ -2,7 +2,7 @@
   {
     "name": "threeImage",
     "type": "group",
-    "widget": "NDLAthreeImage",
+    "widget": "EscapeRoom",
     "label": "Three Image Editor",
     "importance": "high",
     "fields": [

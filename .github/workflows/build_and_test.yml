@@ -31,7 +31,7 @@ jobs:
 
           if [ -d "h5p-editor-audio-recorder" ]; then pushd h5p-editor-audio-recorder && npm ci && npm run build; popd; fi
 
-          if [ -d "h5p-editor-ndla-virtual-tour" ]; then pushd h5p-editor-ndla-virtual-tour && npm ci && npm run build; popd; fi
+          if [ -d "h5p-editor-escape-room" ]; then pushd h5p-editor-escape-room && npm ci && npm run build; popd; fi
 
           cp -r ../h5p-ndla-virtual-tour .
       - name: Use Node.js

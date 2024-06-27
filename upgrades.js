@@ -1,6 +1,6 @@
 var H5PUpgrades = H5PUpgrades || {};
 
-H5PUpgrades['H5P.NDLAThreeImage'] = (function () {
+H5PUpgrades['H5P.EscapeRoom'] = (function () {
   return {
     0: {
       2: function (parameters, finished) {

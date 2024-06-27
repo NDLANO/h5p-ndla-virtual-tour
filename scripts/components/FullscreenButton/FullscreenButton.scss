@@ -1,4 +1,4 @@
-.h5p-ndla-virtual-tour-fullscreen-button {
+.h5p-escape-room-fullscreen-button {
   background-color: #000;
   border: 0.2em solid transparent;
   border-radius: 50%;
@@ -33,8 +33,8 @@
   }
 }
 
-.h5p-container.h5p-fullscreen .h5p-ndla-virtual-tour-fullscreen-button,
-.h5p-container.h5p-semi-fullscreen .h5p-ndla-virtual-tour-fullscreen-button {
+.h5p-container.h5p-fullscreen .h5p-escape-room-fullscreen-button,
+.h5p-container.h5p-semi-fullscreen .h5p-escape-room-fullscreen-button {
   &::before {
     content: "\f066";
   }

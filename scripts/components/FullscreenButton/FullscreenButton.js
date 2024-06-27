@@ -19,7 +19,7 @@ export default class FullscreenButton extends React.Component {
     return (
       <button
         aria-label={ this.props.ariaLabel }
-        className='h5p-ndla-virtual-tour-fullscreen-button'
+        className='h5p-escape-room-fullscreen-button'
         onClick={ this.props.onClicked }
         tabIndex={ this.props.tabIndex }
       />

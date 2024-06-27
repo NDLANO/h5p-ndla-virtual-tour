@@ -187,7 +187,7 @@ export default class ZoomButtons extends React.Component {
 
     return (
       <div
-        className='h5p-ndla-virtual-tour-zoom-buttons'
+        className='h5p-escape-room-zoom-buttons'
         role='toolbar'
         aria-label={ this.context.l10n.zoomToolbar }
         aria-controls={ this.props.ariaControls }
@@ -195,9 +195,9 @@ export default class ZoomButtons extends React.Component {
         onBlur={ () => this.handleBlur() }
         onKeyDown={ (event) => this.handleKeyDown(event) }
       >
-        <div className='h5p-ndla-virtual-tour-zoom-button-wrapper'>
+        <div className='h5p-escape-room-zoom-button-wrapper'>
           <button
-            className='h5p-ndla-virtual-tour-zoom-button zoom-in'
+            className='h5p-escape-room-zoom-button zoom-in'
             ref={ this.zoomInButtonRef }
             aria-label={ zoomInAriaLabel }
             onClick={ this.props.onZoomIn }
@@ -208,9 +208,9 @@ export default class ZoomButtons extends React.Component {
             <div className='text-wrap'>{ this.context.l10n.buttonZoomIn }</div>
           </div>
         </div>
-        <div className='h5p-ndla-virtual-tour-zoom-button-wrapper'>
+        <div className='h5p-escape-room-zoom-button-wrapper'>
           <button
-            className='h5p-ndla-virtual-tour-zoom-button zoom-out'
+            className='h5p-escape-room-zoom-button zoom-out'
             ref={ this.zoomOutButtonRef }
             aria-label={ zoomOutAriaLabel }
             onClick={ this.props.onZoomOut }
